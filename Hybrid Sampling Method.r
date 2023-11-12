@@ -45,11 +45,11 @@ for (j in 1:samplings){
   
   Sampled = matrix(0, no_of_methods, nodes)
   
-  for (loop in 1: no_of_methods) { 
+
     Sampled[,1] = seed
     k[,seed] = 1
     P[,seed] = 0
-  }
+  
   
   
   for (i in 2:nodes){
